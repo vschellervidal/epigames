@@ -1,0 +1,39 @@
+#epigames
+{
+    position: absolute;
+    margin-left: 10px;
+    margin-top: -700px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #ffffff;
+}
+
+.box {
+    cursor: pointer;
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    background-color: #30c0df;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+    transition: border 0.1s;
+}
+
+.box:hover {
+    background-color: #2ea4be;
+    border: 3px solid black;
+}
+
+#box1
+{
+    background-image: url('img/flappy_karim_home.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
