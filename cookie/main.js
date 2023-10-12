@@ -572,9 +572,6 @@ Game.Launch=function()
 	Game.https=(location.protocol!='https:')?false:true;
 	Game.mobile=0;
 	Game.touchEvents=0;
-	//if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) Game.mobile=1;
-	//if (Game.mobile) Game.touchEvents=1;
-	//if ('ontouchstart' in document.documentElement) Game.touchEvents=1;
 	
 	var css=document.createElement('style');
 	css.type='text/css';
