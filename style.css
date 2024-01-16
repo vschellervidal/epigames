@@ -40,3 +40,19 @@ body
     background-repeat: no-repeat;
     background-position: center;
 }
+
+#box2
+{
+    background-image: url('img/cookie.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#box3
+{
+    background-image: url('img/who.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
