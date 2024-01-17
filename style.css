@@ -12,7 +12,10 @@ body
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: #ffffff;
+    background-image: url('img/thumbnail_IMG_1928.jpg'); /* replace 'path_to_your_image.jpg' with the path to your image */
+    background-size: cover; /* this will cover the entire viewport */
+    background-repeat: no-repeat; /* this will prevent the image from repeating */
+    background-position: center center;
 }
 
 .box
