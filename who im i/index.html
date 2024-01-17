@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Quel personnage es-tu ?</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        #quiz {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 50%;
+            max-width: 600px;
+        }
+
+        .question {
+            margin-bottom: 10px;
+            font-size: 20px;
+        }
+
+        .reponses {
+            margin-bottom: 20px;
+            text-align: left;
+        }
+
+        #submit {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 10px;
+        }
+
+        #submit:hover {
+            background-color: #45a049;
+        }
+
+        #resultat {
+            margin-top: 20px;
+            font-size: 18px;
+            color: #333;
+        }
+
+        label {
+            display: block;
+            margin-left: 20px;
+        }
+
+        input[type="radio"] {
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Quel personnage es-tu ?</h1>
+    <div id="quiz">
+        <!-- Les questions seront chargées ici -->
+    </div>
+    <button id="submit">Voir le résultat</button>
+    <div id="resultat"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
