@@ -30,7 +30,7 @@ const questions = [
         reponses: {
             a: "J'achète des caméras 4K full HD pour que les étudiants stream",
             b: "Go en turquie pour les implents!",
-            c: "Rien dutout, je dois d'abords finir de recoder le système d'atterissage de la nasa en binnaire"
+            c: "Rien dutout, je dois d'abords finir de recoder le système d'atterissage de la nasa en binaire"
         }
     },
     {
@@ -62,8 +62,8 @@ function chargerQuestions() {
 
 const personnages = {
     'a': { nom: "Léo Sarochard", image: "imgWHO/1.png" },
-    'b': { nom: "Luca Sanchez", image: "imgWHO/2.png" },
-    'c': { nom: "Karim Dridi", image: "imgWHO/3.png" }
+    'b': { nom: "Luca Sanchez", image: "imgWHO/3.png" },
+    'c': { nom: "Karim Dridi", image: "imgWHO/2.png" }
 };
 
 function afficherResultat() {
